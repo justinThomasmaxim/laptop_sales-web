@@ -1,0 +1,399 @@
+* {
+  /* border: 1px solid blue; */
+}
+
+/* NAVBAR */
+body {
+  background-color: #f4f6f5;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* NAVBAR */
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.brand {
+  margin-left: 100px;
+  color: #353535;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+input[type="text"] {
+  width: 966px;
+  height: 43px;
+  flex-shrink: 0;
+  padding: 0px 0px 0px 20px;
+
+  border-radius: 21.5px;
+  background: #f5f5f5;
+  border: none;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  outline: 2px solid #cccccc;
+}
+
+.nav-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.cart,
+.notif {
+  border: none;
+}
+
+button {
+  background: #ffffff;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #353535;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f3f3f3;
+  transition: 0.2s ease;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  fill: #353535;
+}
+
+.profil {
+  width: 40px;
+  height: 40px;
+  background: #353535;
+  border-radius: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+} */
+
+.product {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-price {
+  justify-content: center;
+  align-self: center;
+  padding: 50px 130px;
+  width: 1400px;
+  height: auto;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+}
+
+.product-price img {
+  border-radius: 25px;
+  width: 800px;
+}
+
+.detail {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.judul {
+  align-items: center;
+  display: flex;
+  align-items: flex-start;
+  gap: 90px;
+}
+
+.judul h3 {
+  width: 500px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #353535;
+}
+
+.judul svg {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 5px;
+  margin-top: 40px;
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+}
+
+.judul svg:hover {
+  background: #e4e4e4;
+  transition: 0.2s ease;
+}
+
+.highlight {
+  width: 600px;
+}
+
+.highlight p {
+  font-size: 20px;
+  color: #353535;
+  margin-top: 20px;
+}
+
+.bintang {
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.bintang svg {
+  width: 150px;
+}
+
+.harga-total {
+  padding: 15px 20px;
+  margin-top: 25px;
+}
+
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* .button a {
+    flex: 1;
+    margin-right: 10px;
+   
+} */
+
+.button form {
+  flex: 1;
+  margin-right: 10px;
+  /* Adjust this value based on your needs */
+}
+
+.button button {
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffb800;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button .keranjang {
+  background-color: transparent;
+  color: #ffb800;
+  border: 2px solid #ffb800;
+}
+
+.button .keranjang:hover {
+  background-color: #ffb800;
+  color: white;
+  border: none;
+  transition: 0.2s ease;
+}
+
+.button .beli:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ffb800;
+  color: #ffb800;
+  transition: 0.2s ease;
+}
+
+.container-detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.detail-product {
+  width: 1556px;
+  padding: 20px 50px;
+  justify-content: center;
+  gap: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.title-spec p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.product-spec {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-spec table {
+  width: 50%;
+  /* Adjust this value based on your needs */
+}
+
+.title-information,
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-information th,
+.information td {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container-full-detail {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.full-detail {
+  width: 1556px;
+  padding: 20px 50px;
+  justify-content: center;
+  gap: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.title-detail p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.deskripsi p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #353535;
+}
+
+.container-komen {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-komen {
+  width: 1556px;
+  padding: 20px 50px;
+  justify-content: center;
+  gap: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.komen {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-komen p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #353535;
+  margin-bottom: 30px;
+}
+
+.komen-user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.foto-profil {
+  margin-right: 50px;
+}
+
+.foto-profil img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile p {
+  font-size: 26px;
+  font-weight: 500;
+  color: #353535;
+  margin: 0;
+}
+
+.profile svg {
+  margin-top: 5px;
+  width: 150px;
+}
+
+.komen-user p {
+  margin-left: 130px;
+  font-size: 24px;
+}
+
+.foto-komen {
+  height: 250px;
+  display: flex;
+  margin-left: 130px;
+}
+
+.foto-komen img {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}

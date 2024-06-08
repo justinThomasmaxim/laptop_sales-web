@@ -1,0 +1,349 @@
+/* * {
+  border: 1px solid blue;
+} */
+
+body {
+  background-color: #f4f6f5;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* NAVBAR */
+
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.brand {
+  margin-left: 100px;
+  color: #353535 !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.brand-link {
+  text-decoration: none !important;
+}
+
+input[type="text"] {
+  width: 966px;
+  height: 43px;
+  flex-shrink: 0;
+  padding: 0px 0px 0px 20px;
+  border-radius: 21.5px;
+  background: #f5f5f5;
+  border: none;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  outline: 2px solid #cccccc;
+}
+
+.nav-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
+
+button {
+  background: #ffffff;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #353535;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f3f3f3;
+  transition: 0.2s ease;
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+  fill: #353535;
+}
+
+.profil {
+  width: 40px;
+  height: 40px;
+  background: #353535;
+  border-radius: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.container-product-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 0px 100px;
+}
+
+.produk-terpilih {
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.produk-terpilih input {
+  margin-left: 20px;
+}
+
+.produk-terpilih p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #353535;
+  margin-left: 20px;
+}
+
+.row {
+  margin-left: 550px;
+  margin-right: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container-product-on-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 0px 100px;
+  margin-bottom: 150px !important;
+}
+
+.container-product-on-cart .update {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: rgb(32, 32, 182);
+  cursor: pointer;
+  color: white;
+  margin-left: 120px;
+}
+
+.container-product-on-cart .update:hover {
+  background-color: rgb(5, 5, 121);
+}
+
+.bg-product {
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bg-product form {
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bg-product form .jumlah-product {
+  margin-left: 280px;
+}
+
+.product-select {
+  width: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-select input {
+  margin-left: 20px;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  margin-right: 30px;
+  width: 110px;
+  height: 110px;
+  padding: 20px;
+}
+
+.product-image p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #353535;
+  width: 400px;
+}
+
+.detail-product-cart {
+  display: flex;
+  width: 500px;
+  justify-content: left;
+  align-items: center;
+  padding-left: 200px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.detail-product-cart p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #353535;
+}
+
+.jumlah-product {
+  align-items: center;
+  justify-content: center;
+  padding: 2px 20px;
+  border-radius: 10px;
+  background-color: #f4f6f5;
+  display: flex;
+  width: 110px;
+  height: 40px;
+  margin-left: 100px;
+}
+
+.counter-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.jumlah-product input {
+  width: 40px;
+  height: 25px;
+  text-align: center;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.jumlah-product input:focus {
+  outline: none;
+}
+
+.jumlah-product div.minus,
+.jumlah-product div.plus {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.update-delete-product {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding-right: 70px;
+}
+
+.update-delete-product button {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #ffb800;
+  cursor: pointer;
+  color: white;
+}
+
+.update-delete-product button:hover {
+  background-color: #b85900;
+  transition: 0.2s ease;
+}
+/* 
+.update-delete-product .update {
+  background-color: rgb(32, 32, 182);
+  margin-right: 60px;
+}
+
+.update-delete-product .update:hover {
+  background-color: rgb(5, 5, 121);
+} */
+
+.container-checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 20px;
+}
+
+.bg-checkout {
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  gap: 1240px;
+}
+
+.total-harga p {
+  font-size: 20px;
+  width: 150px;
+}
+
+.button-checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-checkout .checkout {
+  padding: 10px 20px;
+  background-color: #ffb800;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button-checkout .checkout:hover {
+  background-color: #b85900;
+  transition: 0.2s ease;
+}
